@@ -1,1 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.input-text {
+    margin-top: 20px;
+}
+
+form {
+    margin: auto;
+    width: 800px;
+    gap: 20px;
+}
+
+form input {
+    margin: auto;
+    font-size: 20px;
+    height: 45px;
+    width: 680px;
+    flex-basis: 80%;
+}
+
+form button {
+    margin-left: 20px;
+    padding: 15px;
+}
+
+.bottom-div {
+    width: 800px;
+    margin: auto;
+}
+
+.bottom-div ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.bottom-div ul li {
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 25px;
+    margin-bottom: 20px;
+    position: relative;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.bottom-div ul li button {
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+    padding: 10px;
+}
